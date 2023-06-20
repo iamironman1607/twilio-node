@@ -10,7 +10,7 @@ app.get('/', (req, res, next) => {
     sendMessageUsingTwilio();
     res.send("Message successfully sent!");
 })
-app.listen(3000, console.log('Server up at 30000'));
+app.listen(3000, console.log('Server up at 3000'));
 
 const sendMessageUsingTwilio = () => {
     client.messages
